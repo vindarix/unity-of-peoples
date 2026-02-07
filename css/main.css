@@ -151,8 +151,10 @@ nav a:hover {
 }
 
 .hero-image img {
-  width: 100%;
-  height: auto;
+  width: 800px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -304,8 +306,10 @@ footer p {
 }
 
 .nation-hero .hero-image img {
-  width: 100%;
-  height: auto;
+  width: 800px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
