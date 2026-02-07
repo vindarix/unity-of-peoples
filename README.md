@@ -1,10 +1,27 @@
 # Unity of peoples
+## [Демо-версия](https://vindarix.github.io/unity-of-peoples)
 
-Проект многостраничного HTML сайта для конкурса IT-Хакатон.
+### Краткая информация
 
-### Структура проекта
+Многостраничный веб-сайт, сделанный по теме "Год единства народов России" для конкурса технического творчества IT-Хакатон.
+
+
+### Стек
+
+- HTML - разметка сайта
+- SCSS - препроцессор CSS
+- CSS - каскадные таблицы стилей
+
+### Содержание
+
+- Адаптивный дизайн
+- Фотогалерея
+- Интересные факты
+
+### Структура репозитория
+
 ```bash
-├── assets
+├── assets                    # локальные файлы
 │   ├── fonts
 │   │   └── Tektur-Regular.ttf
 │   └── images
@@ -12,18 +29,18 @@
 │       ├── hero
 │       ├── logo.svg
 │       └── nations
-├── css
+├── css                       # стили
 │   ├── main.css
 │   └── main.css.map
-├── index.html
-├── pages
+├── index.html                # основная страница
+├── pages                     # страницы наций
 │   ├── bashkirs.html
 │   ├── chechens.html
 │   ├── russians.html
 │   ├── tatars.html
 │   └── yakuts.html
 ├── README.md
-└── scss
+└── scss                      # scss стили
     ├── components
     │   ├── _facts.scss
     │   ├── _footer.scss
