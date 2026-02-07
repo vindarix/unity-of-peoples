@@ -14,9 +14,21 @@ header .container {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
 .logo img {
   height: 40px;
   width: auto;
+}
+
+.logo span {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: $color-primary;
 }
 
 nav ul {
