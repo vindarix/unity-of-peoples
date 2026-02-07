@@ -22,3 +22,9 @@
     transform: scale(1.05);
   }
 }
+
+@media (max-width: $breakpoint-md) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}

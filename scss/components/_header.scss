@@ -44,3 +44,15 @@ nav a {
     color: $color-primary;
   }
 }
+
+@media (max-width: $breakpoint-md) {
+  header .container {
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+}

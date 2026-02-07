@@ -54,3 +54,9 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-md) {
+  .nations-grid {
+    grid-template-columns: 1fr;
+  }
+}
