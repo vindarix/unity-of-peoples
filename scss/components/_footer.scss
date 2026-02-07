@@ -1,0 +1,12 @@
+footer {
+  background-color: $color-text;
+  color: white;
+  padding: $spacing-lg 0;
+  text-align: center;
+  margin-top: $spacing-xl;
+
+  p {
+    margin: 0;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,56 @@
+.nations {
+  background-color: $color-background-alt;
+  padding: $spacing-xl 0;
+  margin-bottom: $spacing-xl;
+}
+
+.nations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: $spacing-lg;
+}
+
+.nation-card {
+  background-color: $color-background;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h3 {
+    padding: $spacing-md $spacing-md 0;
+  }
+
+  p {
+    padding: 0 $spacing-md $spacing-md;
+    color: $color-text-light;
+  }
+
+  a {
+    display: inline-block;
+    margin: 0 $spacing-md $spacing-md;
+    padding: $spacing-xs $spacing-sm;
+    background-color: $color-primary;
+    color: white;
+    border-radius: $border-radius;
+    font-weight: 500;
+
+    &:hover {
+      background-color: darken($color-primary, 10%);
+      color: white;
+    }
+  }
+}
