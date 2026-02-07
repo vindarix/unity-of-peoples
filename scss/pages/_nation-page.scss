@@ -1,22 +1,37 @@
 .nation-hero {
-  background:
-    linear-gradient(rgba(0, 86, 179, 0.8), rgba(255, 107, 53, 0.8)),
-    url("../../assets/images/hero/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
+  background: #fff;
   padding: $spacing-xl 0;
   margin-bottom: $spacing-xl;
+}
 
-  h1 {
-    margin-bottom: $spacing-md;
-  }
+.nation-hero .hero-content {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xl;
+}
 
-  p {
-    font-size: 1.25rem;
-    opacity: 0.9;
-  }
+.nation-hero .hero-image {
+  flex: 0 0 50%;
+}
+
+.nation-hero .hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+.nation-hero .hero-text {
+  flex: 0 0 50%;
+}
+
+.nation-hero .hero-text h1 {
+  margin-bottom: $spacing-md;
+}
+
+.nation-hero .hero-text p {
+  font-size: 1.25rem;
+  opacity: 0.9;
 }
 
 .nation-info {
