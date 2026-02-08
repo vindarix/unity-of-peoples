@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Башкирский народ — Дружба народов</title>
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/gallery.theme.css" />
+    <link rel="stylesheet" href="../css/gallery.min.css" />
     <link rel="icon" href="../assets/images/logo.svg" type="image/svg+xml" />
   </head>
   <body>
@@ -72,23 +74,46 @@
       <section class="gallery">
         <div class="container">
           <h2>Фотогалерея</h2>
-          <div class="gallery-grid">
-            <img
-              src="../assets/images/gallery/bashkirs-1.jpg"
-              alt="Башкирский народ"
-            />
-            <img
-              src="../assets/images/gallery/bashkirs-2.jpg"
-              alt="Башкирский народ"
-            />
-            <img
-              src="../assets/images/gallery/bashkirs-3.jpg"
-              alt="Башкирский народ"
-            />
-            <img
-              src="../assets/images/gallery/bashkirs-4.jpg"
-              alt="Башкирский народ"
-            />
+          <div class="gallery autoplay items-4">
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+            <div id="item-4" class="control-operator"></div>
+
+            <figure class="item">
+              <img
+                src="../assets/images/gallery/bashkirs-1.jpg"
+                alt="Башкирский народ"
+              />
+            </figure>
+
+            <figure class="item">
+              <img
+                src="../assets/images/gallery/bashkirs-2.jpg"
+                alt="Башкирский народ"
+              />
+            </figure>
+
+            <figure class="item">
+              <img
+                src="../assets/images/gallery/bashkirs-3.jpg"
+                alt="Башкирский народ"
+              />
+            </figure>
+
+            <figure class="item">
+              <img
+                src="../assets/images/gallery/bashkirs-4.jpg"
+                alt="Башкирский народ"
+              />
+            </figure>
+
+            <div class="controls">
+              <a href="#item-1" class="control-button">•</a>
+              <a href="#item-2" class="control-button">•</a>
+              <a href="#item-3" class="control-button">•</a>
+              <a href="#item-4" class="control-button">•</a>
+            </div>
           </div>
         </div>
       </section>
