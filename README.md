@@ -1,10 +1,10 @@
 # Unity of peoples
+
 ## [Демо-версия](https://vindarix.github.io/unity-of-peoples)
 
 ### Краткая информация
 
 Многостраничный веб-сайт, сделанный по теме "Год единства народов России" для конкурса технического творчества IT-Хакатон.
-
 
 ### Стек
 
@@ -27,7 +27,7 @@
 │   └── images
 │       ├── gallery
 │       ├── hero
-│       ├── logo.svg
+│       ├── logo.png
 │       └── nations
 ├── css
 │   ├── gallery.min.css

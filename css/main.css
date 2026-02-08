@@ -68,7 +68,7 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #0056b3;
+  color: #ff6b35;
 }
 
 .container {
@@ -141,7 +141,7 @@ header .container {
 .logo span {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #0056b3;
+  color: #ff6b35;
 }
 
 nav ul {
@@ -154,7 +154,7 @@ nav a {
   color: #333333;
 }
 nav a:hover {
-  color: #0056b3;
+  color: #ff6b35;
 }
 
 @media (max-width: 768px) {
@@ -267,13 +267,13 @@ nav a:hover {
   display: inline-block;
   margin: 0 1.5rem 1.5rem;
   padding: 0.5rem 1rem;
-  background-color: #0056b3;
+  background-color: #ff6b35;
   color: white;
   border-radius: 8px;
   font-weight: 500;
 }
 .nation-card a:hover {
-  background-color: rgb(0, 61.4972067039, 128);
+  background-color: rgb(255, 69.6336633663, 2);
   color: white;
 }
 
@@ -310,7 +310,7 @@ nav a:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 .fact-card h3 {
-  color: #0056b3;
+  color: #ff6b35;
   margin-bottom: 1rem;
 }
 .fact-card p {
@@ -401,7 +401,7 @@ footer p {
   margin-bottom: 3rem;
 }
 .nation-info h2 {
-  color: #0056b3;
+  color: #ff6b35;
   margin-bottom: 1.5rem;
 }
 .nation-info p {
