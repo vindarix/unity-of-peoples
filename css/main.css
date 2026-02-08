@@ -218,6 +218,9 @@ nav a:hover {
   padding: 3rem 0;
   margin-bottom: 3rem;
 }
+.nations h2 {
+  margin-bottom: 3rem;
+}
 
 .nations-grid {
   display: grid;
@@ -271,6 +274,9 @@ nav a:hover {
 .facts {
   background-color: #ffffff;
   padding: 3rem 0;
+  margin-bottom: 3rem;
+}
+.facts h2 {
   margin-bottom: 3rem;
 }
 
