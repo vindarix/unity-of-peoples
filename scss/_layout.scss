@@ -22,8 +22,20 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 footer {
   margin-top: auto;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
