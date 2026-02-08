@@ -21,7 +21,7 @@
 ### Структура репозитория
 
 ```bash
-├── assets                    # локальные файлы
+├── assets
 │   ├── fonts
 │   │   └── Tektur-Regular.ttf
 │   └── images
@@ -29,18 +29,20 @@
 │       ├── hero
 │       ├── logo.svg
 │       └── nations
-├── css                       # стили
+├── css
+│   ├── gallery.min.css
+│   ├── gallery.theme.css
 │   ├── main.css
 │   └── main.css.map
-├── index.html                # основная страница
-├── pages                     # страницы наций
+├── index.html
+├── pages
 │   ├── bashkirs.html
 │   ├── chechens.html
 │   ├── russians.html
 │   ├── tatars.html
 │   └── yakuts.html
 ├── README.md
-└── scss                      # scss стили
+└── scss
     ├── components
     │   ├── _facts.scss
     │   ├── _footer.scss
