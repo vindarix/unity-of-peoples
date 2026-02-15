@@ -26,7 +26,7 @@
 │   │   └── Tektur-Regular.ttf
 │   └── images
 │       ├── gallery
-│       ├── hero
+│       ├── hero-bg.jpg
 │       ├── logo.png
 │       └── nations
 ├── css
@@ -38,6 +38,7 @@
 ├── pages
 │   ├── bashkirs.html
 │   ├── chechens.html
+│   ├── ingush.html
 │   ├── russians.html
 │   ├── tatars.html
 │   └── yakuts.html
